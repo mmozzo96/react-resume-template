@@ -91,7 +91,7 @@ const Testimonials: FC = memo(() => {
                 );
               })}
             </div>
-            <div className="flex gap-x-4">
+            {/* <div className="flex gap-x-4">
               {[...Array(testimonials.length)].map((_, index) => {
                 const isActive = index === activeIndex;
                 return (
@@ -105,7 +105,7 @@ const Testimonials: FC = memo(() => {
                     onClick={setTestimonial(index)}></button>
                 );
               })}
-            </div>
+            </div> */}
           </div>
         </div>
       </div>
@@ -114,7 +114,7 @@ const Testimonials: FC = memo(() => {
 });
 
 const Testimonial: FC<{testimonial: Testimonial; isActive: boolean}> = memo(
-  ({testimonial: {text, name, image}, isActive}) => (
+  ({testimonial: {text, name, image, ref}, isActive}) => (
     <div
       className={classNames(
         'flex w-full shrink-0 snap-start snap-always flex-col items-start gap-y-4 p-2 transition-opacity duration-1000 sm:flex-row sm:gap-x-6',
@@ -130,7 +130,11 @@ const Testimonial: FC<{testimonial: Testimonial; isActive: boolean}> = memo(
       )}
       <div className="flex flex-col gap-y-4">
         <p className="prose prose-sm font-medium italic text-white sm:prose-base">{text}</p>
-        <p className="text-xs italic text-white sm:text-sm md:text-base lg:text-lg">-- {name}</p>
+        <p className="text-xs text-white sm:text-sm md:text-base lg:text-lg">
+          <a href={ref} target="_blank">
+            -- {name}
+          </a>
+        </p>
       </div>
     </div>
   ),

@@ -30,7 +30,7 @@ export interface Hero {
 interface HeroActionItem {
   href: string;
   text: string;
-  primary?: boolean;
+  blank?: boolean;
   Icon?: ForwardRefExoticComponent<Omit<SVGProps<SVGSVGElement>, 'ref'>>;
 }
 
@@ -103,6 +103,7 @@ export interface TestimonialSection {
 
 export interface Testimonial {
   image?: string;
+  ref?: string;
   name: string;
   text: string;
 }
