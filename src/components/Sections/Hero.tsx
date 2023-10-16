@@ -35,8 +35,8 @@ const Hero: FC = memo(() => {
                     'border-white ring-white',
                   )}
                   href={href}
-                  target={blank ? '_blank' : '_self'}
-                  key={text}>
+                  key={text}
+                  target={blank ? '_blank' : '_self'}>
                   {text}
                   {Icon && <Icon className="h-5 w-5 text-white sm:h-6 sm:w-6" />}
                 </a>

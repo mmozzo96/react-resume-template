@@ -1,6 +1,6 @@
 import {AcademicCapIcon, ArrowDownTrayIcon, BuildingOffice2Icon, FlagIcon, MapIcon} from '@heroicons/react/24/outline';
-import B from '../components/B';
 
+import B from '../components/B';
 import GithubIcon from '../components/Icon/GithubIcon';
 import LinkedInIcon from '../components/Icon/LinkedInIcon';
 import heroImage from '../images/galaxy-header-bg.jpg';
