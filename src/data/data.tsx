@@ -72,7 +72,7 @@ export const heroData: Hero = {
   ),
   actions: [
     {
-      href: '/assets/Michele-Mozzo-CV.pdf',
+      href: '/assets/Michele Mozzo Resume.pdf',
       text: 'Resume',
       blank: true,
       Icon: ArrowDownTrayIcon,
