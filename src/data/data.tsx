@@ -60,11 +60,11 @@ export const heroData: Hero = {
   name: `Hello, I'm Michele.`,
   description: (
     <>
-      <p className="prose-sm text-stone-200 sm:prose-base lg:prose-lg">
+      <p className="prose-sm text-stone-200 w-3/4 sm:prose-base lg:prose-lg ">
         I am a <B>Frontend Software Engineer</B>, who taught himself into the world of web development. I am based in{' '}
         <B>Espoo</B>, close to the <B>Helsinki</B> area
       </p>
-      <p className="prose-sm text-stone-200 sm:prose-base lg:prose-lg">
+      <p className="prose-sm text-stone-200 w-3/4 sm:prose-base lg:prose-lg">
         In my free time time I like to spend some quality time with friends, enjoy a relaxing walk in the beautiful
         finnish forests or go playing a football match.
       </p>
@@ -284,7 +284,7 @@ export const experience: TimelineItem[] = [
   {
     date: 'Espoo, Finalnd | February 2023 - Present',
     location: 'KONE',
-    title: 'Frontend Developer Trainee',
+    title: 'Junior Frontend Developer',
     content: (
       <p>
         Currently working at KONE as <B>Frontend Developer Trainee</B> in the R&D team.<br></br>
@@ -352,10 +352,6 @@ export const contact: ContactSection = {
     {
       type: ContactType.Phone,
       text: '+358 466364860',
-    },
-    {
-      type: ContactType.Phone,
-      text: '+39 3486788526',
     },
   ],
 };
