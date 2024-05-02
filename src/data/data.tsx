@@ -65,8 +65,8 @@ export const heroData: Hero = {
         <B>Espoo</B>, close to the <B>Helsinki</B> area
       </p>
       <p className="prose-sm text-stone-200 w-3/4 sm:prose-base lg:prose-lg">
-        In my free time time I like to spend some quality time with friends, enjoy a relaxing walk in the beautiful
-        finnish forests or go playing a football match.
+        In my free time I like to spend some quality time with friends, enjoy a relaxing walk in the beautiful finnish
+        forests or go playing a football match.
       </p>
     </>
   ),
@@ -139,7 +139,7 @@ export const skills: SkillGroup[] = [
       },
       {
         name: 'AWS cloud',
-        level: 4,
+        level: 6,
       },
     ],
   },
@@ -284,16 +284,16 @@ export const experience: TimelineItem[] = [
   {
     date: 'Espoo, Finalnd | February 2023 - Present',
     location: 'KONE',
-    title: 'Junior Frontend Developer',
+    title: 'Frontend Developer',
     content: (
       <p>
-        Currently working at KONE as <B>Frontend Developer Trainee</B> in the R&D team.<br></br>
+        Currently working at KONE as <B>Frontend Developer</B> in the R&D team.<br></br>
         The project I am taking care of is a web UI that displays real-time data in a digital-twin of a building.
         <br></br>I helped bringing the project from its POC phase to the first release given to the customer.<br></br>
-        The technologies I am working with are: <B>React.js</B> implemented with <B>Typescript</B>, <B>THREE.js</B> for
-        displaying and animating 3D digital twins, <B>AWS cloud</B> services for hosting, CI/CD, authentication,{' '}
-        <B>Apollo</B>
-        and <B>websocket</B> for APIs handling.
+        The technologies I am working with are: <B>React.js</B> implemented with <B>Typescript</B> implementing the{' '}
+        <B>THREE.js</B> library for displaying and animating objects in a 3D environment, <B>AWS cloud</B> services for
+        hosting, CI/CD, authentication, <B>GitLab</B> for CI/CD pipelines and <B>GraphQL</B> and <B>websocket</B> for
+        APIs handling.
       </p>
     ),
   },
