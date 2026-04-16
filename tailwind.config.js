@@ -6,6 +6,11 @@ module.exports = {
     extend: {
       colors: {
         yellow: '#efc603',
+        accent: {
+          400: '#4A9960',
+          500: '#3A7D4F',
+          600: '#295B39',
+        },
       },
       keyframes: {
         typing: {
